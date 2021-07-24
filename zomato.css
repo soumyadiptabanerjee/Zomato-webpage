@@ -1,0 +1,142 @@
+body{
+    overflow-x:  hidden;
+    overflow-y: scroll;
+}
+.nav1{
+    position: absolute;
+    width: 100vw;
+}
+.navbar-collapse {
+    flex-direction: row-reverse;
+}
+.navbar-light .navbar-nav .nav-link {
+    margin-left: 20px;
+}
+#banner-img{
+    background-image: url('https://source.unsplash.com/1600x700/?foods');
+    height: 60vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.content{
+    padding-top: 10%;
+}
+p {
+    display: flex;
+    justify-content: center;
+}
+.input2{
+    position: relative;
+    left: -10%;
+    border-radius: 10px;
+    border-left: 0;
+}
+.input1{
+    position: relative;
+    right: -10%;
+    border-radius: 10px;
+}
+.button1{
+    position: relative;
+    left: -7%;
+    z-index: 1;
+}
+.button2{
+    position: relative;
+    left: -3%;
+    z-index: 1;
+}
+@media screen and (max-width: 1205px){
+    .content{
+        padding-top: 14%;
+    }
+    .input2{
+        left: -12%;
+    }
+    .button2{
+        left: -3%;
+    }
+}
+@media screen and (max-width: 993px){
+    .content{
+        padding-top: 20%;
+    }
+    .button2{
+        left: 0%
+    }
+}
+@media screen and (max-width: 768px){
+    .button1{
+        left: 0%;
+    }
+    .button2{
+        left: 2%
+    }
+}
+@media screen and (max-width: 670px){
+    .input2{
+        left: -17%;
+    }
+    .button1{
+        left: -2%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:600px){
+    .banner-img{
+        display: flex;
+        align-items: flex-end;
+    }
+}
+@media screen and (max-width: 475px){
+    .p{
+        font-size: 25px !important;
+    }
+}
+
+#a1{
+    text-decoration: none;
+    color: rgb(237, 90, 107);
+}
+.modals{
+    border-radius: 10px;
+}
+.modal-footer {
+    justify-content: flex-start !important;
+}
+.holder::placeholder{
+    font-size: 18px;
+}
+.button{
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+.col-5 {
+    padding: 0;
+}
+.app-email::placeholder{
+    font-size: 20px;
+}
+.image1:hover{
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+}
+.email-modal {
+    display: flex;
+    justify-content: center;
+}
+.holder2::placeholder{
+    font-size: 18px;
+    text-align: center;
+}
+.foot{
+    text-decoration: none;
+    color: black;
+}
+.foots{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
